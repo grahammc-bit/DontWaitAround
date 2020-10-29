@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+        body {
+            min-width: 300px;
+            min-height: 125px;
+        }
+
+        .margin-top {
+            margin-top: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1 style="text-align: center">Choose When Tab Closes</h1>
+    </div>
+
+    <button id="closeTab10Min" style="background-color:red">
+        10 Min
+    </button>
+
+    <button id="closeTab15Min" style="background-color:red">
+        15 Min
+    </button>
+
+    <button id="closeTab30Min" style="background-color:red">
+        30 Min
+    </button>
+
+    <button id="closeTab45Min" style="background-color:red">
+        45 Min
+    </button>
+
+    <div style="margin-top: 5px">
+        <button id="closeTab1Hr" style="background-color:red">
+            60 Min
+        </button>
+
+        <button id="closeTab1Hr30Min" style="background-color:red">
+            90 Min
+        </button>    
+    </div>
+
+    <div class="margin-top">
+        <button id="cancelCloseTab" style="background-color:yellow">
+            Cancel Scheduled Tab Close
+        </button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
